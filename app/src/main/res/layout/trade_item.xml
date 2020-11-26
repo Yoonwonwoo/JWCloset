@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/postImage"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_baseline_person_24"/>
+
+                <TextView
+                    android:id="@+id/postName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="윤원우"
+                    android:fontFamily="@font/nanumgothic"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="8dp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/tradeImg"
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/test1"/>
+
+            <TextView
+                android:id="@+id/tradeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Title"
+                android:fontFamily="@font/nanumgothicbold"
+                android:textSize="24sp"
+                android:textColor="#262626"/>
+
+            <TextView
+                android:id="@+id/tradeDes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="이 제품은 말이죠 *^^*"
+                android:fontFamily="@font/nanumgothic"
+                android:textColor="#515151"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/tradeCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="#빈티지"
+                android:fontFamily="@font/nanumgothic"
+                android:textColor="#515151"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/tradeDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2020.11.02"
+                android:textSize="10sp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/nanumgothic"
+                android:textColor="#515151"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

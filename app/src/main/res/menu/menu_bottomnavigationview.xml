@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tradeTab"
+        android:icon="@drawable/ic_baseline_article_24"
+        android:title="" />
+    <item
+        android:id="@+id/marketTab"
+        android:icon="@drawable/ic_baseline_storefront_24"
+        android:title="" />
+    <item
+        android:id="@+id/chatTab"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="" />
+    <item
+        android:id="@+id/profileTab"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="" />
+
+</menu>

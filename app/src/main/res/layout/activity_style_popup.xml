@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="16dp"
+    tools:context=".StylePopupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/styleBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B3B1B1"
+            android:text="캐주얼"
+            android:textSize="12sp"
+            android:fontFamily="@font/nanumgothic"
+            android:layout_marginRight="6dp"/>
+
+        <Button
+            android:id="@+id/styleBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B3B1B1"
+            android:text="모던시크"
+            android:textSize="12sp"
+            android:fontFamily="@font/nanumgothic"
+            android:layout_marginRight="6dp"/>
+
+        <Button
+            android:id="@+id/styleBtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B3B1B1"
+            android:text="러블리"
+            android:textSize="12sp"
+            android:fontFamily="@font/nanumgothic"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/styleBtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B3B1B1"
+            android:text="유니크"
+            android:textSize="12sp"
+            android:fontFamily="@font/nanumgothic"
+            android:layout_marginRight="6dp"/>
+
+        <Button
+            android:id="@+id/styleBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B3B1B1"
+            android:text="캠퍼스룩"
+            android:textSize="12sp"
+            android:fontFamily="@font/nanumgothic"
+            android:layout_marginRight="6dp"/>
+
+        <Button
+            android:id="@+id/styleBtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B3B1B1"
+            android:text="빈티지"
+            android:textSize="12sp"
+            android:fontFamily="@font/nanumgothic"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/styleBtn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B3B1B1"
+            android:text="로맨틱"
+            android:textSize="12sp"
+            android:fontFamily="@font/nanumgothic"
+            android:layout_marginRight="6dp"/>
+
+        <Button
+            android:id="@+id/styleBtn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B3B1B1"
+            android:text="오피스룩"
+            android:textSize="12sp"
+            android:fontFamily="@font/nanumgothic"
+            android:layout_marginRight="6dp"/>
+
+        <Button
+            android:id="@+id/styleBtn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B3B1B1"
+            android:text="럭셔리"
+            android:textSize="12sp"
+            android:fontFamily="@font/nanumgothic"/>
+    </LinearLayout>
+
+</LinearLayout>

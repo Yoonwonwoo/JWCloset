@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "332749166027",
+    "firebase_url": "https://jwcloset-746c0.firebaseio.com",
+    "project_id": "jwcloset-746c0",
+    "storage_bucket": "jwcloset-746c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332749166027:android:ce7fcf2c66fa46443ed24e",
+        "android_client_info": {
+          "package_name": "com.example.jwcloset"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332749166027-ke8pspe2dn148vli6uqhfa71ise2klvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxyu1cskBHMFQRvaGN8Cna7OGZvAPrPqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332749166027-ke8pspe2dn148vli6uqhfa71ise2klvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
